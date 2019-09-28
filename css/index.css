@@ -10,7 +10,6 @@ body{
 }
 main{
     margin-top: 50px;
-
 }
 .container{
     width: 700px;
@@ -19,6 +18,7 @@ main{
 ul {
     border: 2px solid #fff;
     font-size: 0;
+    background-color: #fff;
 }
 li{
     display: inline-block;
@@ -39,48 +39,72 @@ h3, p, i{
 i{
     font-size: 20px;
 }
-.lisbon{
+.lisbon, #lisbon:hover{
     background-color: #2593c6;
 }
-.paris{
+ul:hover .lisbon{
+    background-color: rgba(37, 147, 198, 0.6);
+}
+.paris, #paris:hover{
     background-color: #23bdc5;
 }
-
-.belgrade{
+ul:hover .paris{
+    background-color: rgba(35, 189, 197, 0.6);
+}
+.belgrade, #belgrade:hover{
     background-color: #9a6d94;
 }
-
-.moscow{
+ul:hover .belgrade{
+    background-color: rgba(154, 109, 148, 0.6);
+}
+.moscow, #moscow:hover{
     background-color: #c5553f;
 }
-
-.tel-aviv{
+ul:hover .moscow{
+    background-color: rgba(197, 85, 63, 0.6);
+}
+.tel-aviv, #tel-aviv:hover{
     background-color: #e07646;
 }
-
-.cair{
+ul:hover .tel-aviv{
+    background-color: rgba(224, 118, 70, 0.6);
+}
+.cair, #cair:hover{
     background-color: #ffcd5e;
 }
-
-.new-york{
+ul:hover .cair{
+    background-color: rgba(225, 205, 94, 0.6);
+}
+.new-york, #new-york:hover{
     background-color: #91c595;
 }
-
-.new-delhi{
+ul:hover .new-york{
+    background-color: rgba(145, 197, 149, 0.6);
+}
+.new-delhi, #new-delhi:hover{
     background-color: #629296;
 }
-
-.san-francisco{
+ul:hover .new-delhi{
+    background-color: rgba(98, 146, 150, 0.6);
+}
+.san-francisco, #san-francisco:hover{
     background-color: #cd7291;
 }
-
-.tokyo{
+ul:hover .san-francisco{
+     background-color: rgba(205, 114, 145, 0.6);
+}
+.tokyo, #tokyo:hover {
     background-color: #2a8c63;
 }
-
-.sydney{
+ul:hover .tokyo{
+    background-color: rgba(42, 140, 99, 0.6);
+}
+.sydney, #sydney:hover{
     background-color: #626995;
     width: 100%;
+}
+ul:hover .sydney{
+    background-color: rgba(98, 105, 149, 0.6);
 }
 .lisbon, .san-francisco{
     width: 50%;
@@ -88,6 +112,3 @@ i{
 .paris, .belgrade, .moscow, .tel-aviv, .cair, .new-york, .new-delhi, .tokyo {
     width: 25%;
 }
-/*li:hover ~li{
-    background-color: #fff;
-}*/
