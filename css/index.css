@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #2593c6;
+}
+main{
+    margin-top: 50px;
+
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+ul {
+    border: 2px solid #fff;
+    font-size: 0;
+}
+li{
+    display: inline-block;
+    padding: 23px 0;
+    border: 2px solid #fff;
+}
+h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+p{
+    font-size: 17px;
+}
+h3, p, i{
+    text-align: center;
+    color: #fff;
+}
+i{
+    font-size: 20px;
+}
+.lisbon{
+    background-color: #2593c6;
+}
+.paris{
+    background-color: #23bdc5;
+}
+
+.belgrade{
+    background-color: #9a6d94;
+}
+
+.moscow{
+    background-color: #c5553f;
+}
+
+.tel-aviv{
+    background-color: #e07646;
+}
+
+.cair{
+    background-color: #ffcd5e;
+}
+
+.new-york{
+    background-color: #91c595;
+}
+
+.new-delhi{
+    background-color: #629296;
+}
+
+.san-francisco{
+    background-color: #cd7291;
+}
+
+.tokyo{
+    background-color: #2a8c63;
+}
+
+.sydney{
+    background-color: #626995;
+    width: 100%;
+}
+.lisbon, .san-francisco{
+    width: 50%;
+}
+.paris, .belgrade, .moscow, .tel-aviv, .cair, .new-york, .new-delhi, .tokyo {
+    width: 25%;
+}
+/*li:hover ~li{
+    background-color: #fff;
+}*/
